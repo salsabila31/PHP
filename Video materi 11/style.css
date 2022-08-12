@@ -1,0 +1,122 @@
+        *{
+            margin: 0;
+        }
+
+        .content{
+            margin-top: 2%;
+        }
+
+        .wrapper{
+            width: 80%;
+            margin: auto;
+        }
+
+        header img{
+            width: 60px;
+            
+            float: left;
+        }
+
+        header h1{
+            margin-left: 5%;
+        }
+
+        nav{
+            clear: both;
+        }
+
+        nav ul{
+            margin-top: 4%;
+        }
+
+        section{
+            margin-top: 2%;
+        }
+
+        footer{
+            margin: 3%;
+            text-align: center;
+        }
+
+        section p{
+            margin-top: 2%;
+        }
+
+        #paragraf{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .huruf{
+            font-size: 1rem;
+        }
+
+        .warna{
+            background: cornflowerblue;
+        }
+
+        .bentuk{
+            font-style: italic;
+        }
+
+        .huruf-tebal{
+            font-style: initial;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        ul{
+            font-family: Arial, Helvetica, sans-serif;
+            background: darkorange;
+            list-style: none;
+            margin: 0px;
+            padding-left: 0px;
+        }
+
+        ul li{
+            color: #fff;
+            background: darkorange;
+            display: inline-block;
+            border: 1px blue;
+
+            padding: 10px;
+            position: relative;
+            text-decoration: none;
+        }
+
+        ul li a{
+            color: #fff;
+        }
+
+        ul li:hover{
+            background: red;
+            cursor: pointer;
+        }
+
+        ul li ul{
+            background: orange;
+            visibility: hidden;
+            position: absolute;
+            margin-top: 0.5rem;
+            left: 0;
+            display: none;
+        }
+
+        ul li:hover > ul,
+        ul li ul:hover{
+            visibility: visible;
+            display: block;
+        }
+
+        ul li ul li{
+            clear: both;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 600px){
+        body{
+            background: darksalmon;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        }
