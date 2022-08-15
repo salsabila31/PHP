@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.header{
+    margin: 1%;
+}
+
+.nav-left, .nav-right{
+    background-color: rgb(252, 215, 215);
+}
+
+.nav-left ul,
+.nav-right ul{
+    list-style: none;
+}
+
+.nav-left a,
+.nav-right a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+
+.nav-left a:hover{
+    background: rgb(255, 102, 102);
+}
+
+.nav-right a:hover{
+    background: rgb(245, 154, 154);
+}
+
+@media screen and (min-width: 560px){
+    .header{
+        width: 960px;
+        margin: auto;
+        display: flex;
+        margin-top: 1%;
+        justify-content: space-between;
+    }
+
+    .nav-left ul{
+        display: flex;
+    }
+    
+    .nav-right ul{
+        display: flex;
+    }
+
+    .nav-left, 
+    .nav-right{
+        background: none;
+    }
+
+    .nav-left a,
+    .nav-right a{
+    color: black;
+    }
+}
+
+/* main */
+
+.main{
+    margin-top: 20px;
+}
+
+
+.main-left img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.main-right{
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (min-width: 560px){
+    .main{
+        width: 960px;
+        margin: auto;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .main-left img{
+        width: 600px;
+    }
+
+    .main-right{
+        margin: auto;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .main-right h2{
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }    
+}
+
+/* produk */
+
+.display{
+    margin-top: 3%;
+    text-align: center;
+    color: blue;
+}
+
+.image img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.produk-content{
+    text-align: center;
+    margin: 30px;
+}
+
+.deskripsi p{
+    font-size: 15px;
+}
+
+@media(min-width: 560px){
+    .produk{
+        width: 960px;
+        margin: auto;
+        display: flex;
+    }
+
+    .produk-content{
+        height: 300px;
+    }
+
+    .image{
+        height: 200px;
+        width: 200px;
+    }
+
+    .display{
+        font-size: 30px;
+    }
+}
